@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+
+function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (0 <= currentTime&&currentTime < 6) {
+       document.write("<link rel='stylesheet' href='style3.css' type='text/css'>");
+      }
+      if (6 <= currentTime&&currentTime < 12) {
+       document.write("<link rel='stylesheet' href='style0.css' type='text/css'>");
+      }
+      if (12 <= currentTime&&currentTime < 16) {
+       document.write("<link rel='stylesheet' href='style1.css' type='text/css'>");
+      }
+      if (16 <= currentTime&&currentTime < 20) {
+       document.write("<link rel='stylesheet' href='style2.css' type='text/css'>");
+      }
+      if (20 <= currentTime&&currentTime < 23) {
+       document.write("<link rel='stylesheet' href='style3.css' type='text/css'>");
+      }
+      if (23 <= currentTime&&currentTime < 0) {
+	document.write("<link rel='stylesheet' href='style3.css' type='text/css'>");
+	}
+
+
+}
+
+getStylesheet();
+
+</script>
+
+<noscript><link href="style.css" rel="stylesheet"></noscript>
+
+<style>
+ body {
+ font-size: large;
+ }
+ blink {
+        animation: blinker .7s linear infinite;
+       }
+      @keyframes blinker {
+        40% {
+          opacity: 0;
+        }
+      }
+
+#todo h2{margin: 5px 0px 0px 0px; padding: 0px;}
+
+h4 {
+	color: lightgrey;
+}
+
+#red {
+color: red;}
+
+.main {
+display: grid;
+grid-template-columns: repeat(2, 1fr) ;
+grid-template-rows: 10px, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr ;
+}
+
+.item {}
+.marquee {grid-column-start: 1; grid-column-end: 3;}
+.intro {grid-column-start: 1; grid-column-end: 3;}
+.posts {grid-column-start: 1; grid-column-end: 3;}
+.rss {grid-column-start: 1; grid-column-end: 3;}
+.contact {grid-column-start: 1; grid-column-end: 3;}
+.cool {grid-column-start: 1; grid-column-end: 3;}
+
+
+</style>
+        <title>manish8090</title>
+
+</head>
+<div class="header">
+<div class="title"><h1>
+<script>
+var textArray = [
+  "Manish's Webpage",
+  "Manish's Webpage",
+  "Manish's Webpage",
+  "Manish's Webpage",
+  "Manish's Webpage",
+  "Manish's Webbloat",
+  "Manish's Webpage"
+];
+var randomNumber = Math.floor(Math.random() * textArray.length);
+document.write(textArray[randomNumber]);
+</script></h1></div>
+<h3><script>
+var textArray = [
+  "Make yourself comfortable",
+  "welcome to my webpage",
+  "welcome to my webpage",
+  "welcome to my webpage",
+  "We need some background music",
+  "knock knock",
+  "this website could have been a lot better",
+  "bloat",
+  "who's there?"
+
+];
+var randomNumber = Math.floor(Math.random() * textArray.length);
+document.write(textArray[randomNumber]);
+</script></h3>
+<h3>[<a href="index.html">Home</a>] [<a href="about.html">About</a>] [<a href="blog.html">Blog</a>] [<a href="links.html">Links</a>] [<a href="tags.html">Topic Cloud</a>] [<a href="photography.html">Photography</a>]</H3>
+</div>
+<body>
+    <main>
+        <div class="main">
+        <div class="item marquee"><marquee direction = "left"><h1 id="red">Under Construction.</h1></marquee></div>
+        <div class="item intro"><div id="imz" style="margin-right: 25px;"><img src="files/techmanish.jpg" onmouseover="this.src='files/INTJStare.png';" onmouseout="this.src='files/techmanish.jpg';" width="270ex" border-radius: 7px;><br><z><center>Manish Kumar<br><i>felt technical, might delete later</i></center></z></div>
+        <p>Hello, I am Manish. This is my webpage. Proudly made with HTML. To know more about me, please visit <a href="about.html">About Me</a> .</div>
+
+
+<div class="item contact"><h2>Contact</h2>
+<ul><strong>E-Mail 📧 </strong>:  (very very real)</ul>
+<ul><strong>Matrix 🕸  </strong>: @neoinamatrix:matrix.org</ul>
+<ul><strong>Github</strong>: <a href="https://www.github.com/manish8090">manish8090</a></ul>
+</div>
+<div class="item cool">
+<center><h2>Think that I'm cool ?</h2></center>
+
+
+<center><div style="height: 100px; max-height: 200px;  width: 200px; border: dashed 2px; border-color: cyan; border-radius: 7px; padding-bottom: 20px; margin-top: 20px;"><h3>My Webpin:</h3><img src="files/webpin.gif"></center></div>
+</div>
+<center><blink><h2><a href="links.html#people">Some Cool People</a></h2></blink></center>
+
+</div>
+
+<script defer
+	src="https://comment.cdn.bka.li/js/commento.js"
+	data-auto-init="true""></script>
+<div class="item">
+<center><h2>Guestbook</h2></center>
+<center><div id="commento" style="max-width: 600px; background-color: rgba(50,50,50,0.9); border: dashed 2px; border-color: cyan; border-radius: 7px;"></div><small><center><z>Powered by the kindness of <a href="https://bka.li/">bka.li</a></z></center></small></center><br>
+<div align=center><a href='https://www.counter12.com'><z>This webpage has been visited <img src='https://www.counter12.com/img-4Da91ac3A6C872cx-3.gif' border='0' alt='conter12'> times</z></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=4Da91ac3A6C872cx'></script></div>
+
+</div>
+</div>
+</main>
+  </body>
+
+<!-- FOOTER -->
+<div id="footer"><center><br><z>Ctrl+C, Ctrl+V allowed.</z><hr><z>Copyleft 2022 Manish8090 [ john ] | Some Rights Reserved | Contact </z></div>
+</center>
+
+</html>
+
