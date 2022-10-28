@@ -1,0 +1,18 @@
+<script>
+                <!--
+                function getStylesheet() {
+                var currentTime = new Date().getHours();
+                if (0 <= currentTime&&currentTime < 11) {
+                document.write("<link rel='stylesheet' href='style2.css' type='text/css'>");
+                }
+                if (12 <= currentTime&&currentTime < 24) {
+                document.write("<link rel='stylesheet' href='style.css' type='text/css'>");
+                }
+                                }
+
+                getStylesheet();
+                -->
+        </script>
+
+        <noscript><link href="style.css" rel="stylesheet"></noscript>
+
